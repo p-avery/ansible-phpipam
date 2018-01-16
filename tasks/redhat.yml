@@ -10,11 +10,12 @@
     - php-cli
     - php-gmp
     - php-pear
-    - php-mysqlnd
+    - php-mysql
     - php-ldap
     - php-mcrypt
     - php-curl
     - wget
+    - git
 
 - name: redhat | setting php timezone
   lineinfile:
